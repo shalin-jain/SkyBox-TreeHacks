@@ -12,3 +12,4 @@ The SkyBox hardware is built on a custom-designed 3D-printed chassis that holds 
 
 The SkyBox software is a combination of Arduino and Python scripts. The Arduino code interfaces with the SkyBox to record sensor data and send it over the serial port, where it is parsed with a Python script that writes the data to a csv file and then uses the Maps API to generate the Air Quality Map. The same data is used to create the interactive public Air Quality Map as well.
 
+![Generated Map](https://github.com/shalin-jain/SkyBox-TreeHacks/blob/main/ExampleMap.jpg)
